@@ -42,7 +42,7 @@ apis:
     properties:
       - type: Documentation
         url: https://developers.topdesk.com
-      - type: API Reference
+      - type: APIReference
         url: https://developers.topdesk.com/documentation/index-apidoc.html
       - type: Tutorial
         url: https://developers.topdesk.com/tutorial.html
@@ -58,7 +58,7 @@ common:
     url: https://www.topdesk.com/en/documentation-portal/
   - type: Pricing
     url: https://www.topdesk.com/en/pricing/
-  - type: Sign Up
+  - type: SignUp
     url: https://www.topdesk.com/en/free-trial/
   - type: Support
     url: https://my.topdesk.com
