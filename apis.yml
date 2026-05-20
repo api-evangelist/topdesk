@@ -50,6 +50,8 @@ apis:
         url: https://docs.topdesk.com/en/api-access-to-topdesk.html
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/TOPdesk
   - type: Website
     url: https://www.topdesk.com
   - type: Documentation
