@@ -1,0 +1,40 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.topdesk.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 17 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: developers.topdesk.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 28 11:00:18 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: yourcompany.topdesk.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 03:36:36 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: topdesk.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+- domain: topdesk.net
+  dnssec: true
+  caa:
+  - 0 issue "ssl.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "ssl.com"
+  spf: true
+  dmarc: false

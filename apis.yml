@@ -50,6 +50,10 @@ apis:
         url: https://docs.topdesk.com/en/api-access-to-topdesk.html
 
 common:
+  - type: VulnerabilityDisclosure
+    url: security/topdesk-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/topdesk-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/TOPdesk
   - type: Website
@@ -66,6 +70,8 @@ common:
     url: https://my.topdesk.com
   - type: LinkedIn
     url: https://www.linkedin.com/company/topdesk
+  - type: Blog
+    url: https://www.topdesk.com/en/blog/feed/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
