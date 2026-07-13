@@ -1,0 +1,18 @@
+{
+  "repo": "topdesk",
+  "feeds": [
+    {
+      "source": "https://www.topdesk.com/en/blog/feed/",
+      "feed_url": "https://www.topdesk.com/en/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.linkedin.com/company/topdesk",
+      "error": "HTTPError"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 19
+}
