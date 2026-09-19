@@ -60,6 +60,13 @@ apis:
       - Changes
       - Assets
       - Persons
+      - Operator
+    tags_raw:
+      - ITSM
+      - Incidents
+      - Changes
+      - Assets
+      - Persons
       - Operators
     properties:
       - type: Documentation
