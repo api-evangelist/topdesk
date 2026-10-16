@@ -2,21 +2,21 @@
   "repo": "topdesk",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/topdesk",
-      "feed_url": "https://www.linkedin.com/company/topdesk",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://www.topdesk.com/en/blog/feed/",
       "feed_url": "https://www.topdesk.com/en/blog/feed/",
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://www.linkedin.com/company/topdesk",
+      "feed_url": "https://www.linkedin.com/company/topdesk",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 30,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
